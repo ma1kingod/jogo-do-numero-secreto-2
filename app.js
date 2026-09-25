@@ -17,9 +17,6 @@ function exibirMensagemInicial() {
 exibirMensagemInicial()
 
 
-exibirTextoNaTela('h1', 'Jogo do numero secreto');
-exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10');
-
 function verificarChute() {
     let chute = document.querySelector('input').value;
     if (chute == numeroSecreto) {
